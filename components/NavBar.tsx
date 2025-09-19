@@ -4,6 +4,7 @@ import React from 'react';
 import { Search } from 'lucide-react';
 import { products } from '../data/content';
 import { Dropdown } from './NavDropdown';
+import Image from 'next/image';
 
 export default function Navbar() {
   const navLinks = [
@@ -29,7 +30,7 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between px-8 py-4 bg-black text-white relative shadow-lg">
       <div className="flex items-center">
-        <img src="/logo.png" alt="Wright Windows" width={180} height={50} />
+       <Image src="/logo.png" alt="Wright Windows" width={180} height={50} priority />
       </div>
 
       <div className="hidden md:flex space-x-10 items-center">

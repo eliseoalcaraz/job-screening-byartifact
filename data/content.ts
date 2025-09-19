@@ -104,8 +104,6 @@ export const products = [
     href: "/doors/upvc",
     image: "/images/doors/upvc.jpg",
   },
-
-  // Doors by Style
   {
     category: "door",
     type: "style",
