@@ -1,9 +1,7 @@
-import React from 'react'
-
-const About = () => {
+export default function About() {
   return (
-    <div>page</div>
-  )
+    <main className="min-h-screen bg-white flex flex-col items-center justify-center px-6 py-16 text-center">
+      <h1 className="text-4xl font-bold mb-6 text-black">About Us</h1>
+    </main>
+  );
 }
-
-export default About

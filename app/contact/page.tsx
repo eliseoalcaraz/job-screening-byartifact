@@ -1,9 +1,7 @@
-import React from 'react'
-
-const Contact = () => {
+export default function Contact() {
   return (
-    <div>page</div>
-  )
+    <main className="min-h-screen bg-white flex flex-col items-center justify-center px-6 py-16 text-center">
+      <h1 className="text-4xl font-bold mb-6 text-black">Contact Us</h1>
+    </main>
+  );
 }
-
-export default Contact

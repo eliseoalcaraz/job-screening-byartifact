@@ -18,22 +18,13 @@ export default function Home() {
         <h2 className="text-2xl font-semibold text-center mb-10">Our Products</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="border rounded-xl shadow p-6 text-center">
-            <img
-              src="/window-sample.jpg"
-              alt="Windows"
-              className="w-full h-48 object-cover rounded-md mb-4"
-            />
             <h3 className="text-xl font-semibold mb-2">Windows</h3>
             <p className="text-gray-600">
               Energy-efficient, stylish, and durable windows for every space in your home.
             </p>
           </div>
           <div className="border rounded-xl shadow p-6 text-center">
-            <img
-              src="/door-sample.jpg"
-              alt="Doors"
-              className="w-full h-48 object-cover rounded-md mb-4"
-            />
+
             <h3 className="text-xl font-semibold mb-2">Doors</h3>
             <p className="text-gray-600">
               Secure, elegant, and built to last — doors that make a statement.
